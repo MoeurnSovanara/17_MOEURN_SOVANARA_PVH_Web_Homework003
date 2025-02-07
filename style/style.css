@@ -28,14 +28,14 @@ header .header-menu ul li a:link{
     color: black;
     text-decoration: none;
 }
-header.header-menu ul li a:visited{
-    color: red;
+header .header-menu ul li a:visited{
+    color:rgb(93, 71, 240) ;
 }
 header .header-menu ul li a:hover{
     text-decoration: underline;
 }
-header.header-menu ul li a:active{
-   color:rgb(93, 71, 240); 
+header .header-menu ul li a:active{
+   color:red ; 
 }
 
 /* header-button */
