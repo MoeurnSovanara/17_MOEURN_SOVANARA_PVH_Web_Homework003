@@ -162,7 +162,7 @@ header .header-button button:hover{
 .section1 .cart2 .inner-cart2{
     width: 170px;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.458);
+    background-color: rgba(255, 255, 255, 0.642);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -206,7 +206,7 @@ header .header-button button:hover{
 .section1 .cart3 .inner-cart3{
     width: 180px;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.458);
+    background-color: rgba(255, 255, 255, 0.714);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
