@@ -325,6 +325,9 @@ header .header-button button:hover{
     padding: 5px 7px 5px 10px;
     cursor: pointer;
 }
+.text .play:hover{
+    outline: 1px solid rgb(93, 71, 240);
+}
 
 
 /* section2 */
