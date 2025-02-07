@@ -374,6 +374,7 @@ header .header-button button:hover{
     box-shadow: 1px 2px 6px rgba(25, 24, 24, 0.602);
     outline:1px solid rgb(93, 71, 240);
     color:rgb(93, 71, 240);
+    transition: background-color 0.6s ease-in-out;
 }
 
 .section2-text button:hover{
