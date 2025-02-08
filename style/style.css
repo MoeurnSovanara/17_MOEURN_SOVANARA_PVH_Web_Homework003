@@ -118,7 +118,7 @@ header .header-button button:hover {
   margin-top: -15px;
   background-color: white;
   padding: 10px;
-  box-shadow: 0px 0px 6px rgba(25, 24, 24, 0.273);
+  box-shadow: 0px 0px 1px rgba(25, 24, 24, 0.273);
 }
 .section1 .Content-section1 .cart .cart1 .profile {
   width: 50px;
@@ -259,20 +259,25 @@ header .header-button button:hover {
 /* section cart4 */
 .section1 .cart .cart4 {
   width: 100%;
-  height: 140px;
-  margin: 30px 5px;
+  height: 150px;
+  margin: 20px 0px;
   display: flex;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .section1 .cart .cart4 .cart4-left {
   width: 35%;
-  height: 100%;
+  height: 90%;
+  padding: 10px;
   background-image: url("/images/imgCart4.jfif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   box-shadow: 4px 4px 2px rgba(25, 24, 24, 0.602);
+  margin-left: 20px;
+  margin-top: 7px;
 }
 
 .section1 .cart .cart4 .cart4-right {
@@ -431,6 +436,10 @@ header .header-button button:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: transform 0.7s;
+}
+.section2-image .image:hover{
+  transform: scale(1.1);
 }
 .section2-image .image:nth-child(1) {
   background-image: url("/images/sec2Pic1.jfif");
@@ -532,7 +541,7 @@ header .header-button button:hover {
 }
 
 .section3 .section3-content .section3-content-right .image-cart .feedback {
-  background-color: rgba(255, 255, 255, 0.846);
+  background-color: rgba(255, 255, 255, 0.662);
   width: 190px;
   height: 70px;
   border-radius: 20px;
